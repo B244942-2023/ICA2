@@ -165,7 +165,7 @@ def choose1():
         elif answer == '4':
             print("Alright, hope this time you'll choose what you really want to do...")
             choose()
-
+            break
 def choose():
     print("Now you can choose from [1/2/3/4]:\n\t1 plot conservation level directly and save\n\t2 choose a subset to plot and save\n\t3 skip and go scanning motifs of interest\n\t4 quit (files will be saved)\n")
     while True:
